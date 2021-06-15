@@ -4,12 +4,13 @@ import Logo from "./components/Logo/Logo";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
 import Rank from "./components/Rank/Rank";
+import SignIn from "./components/SignIn/SignIn";
 import Clarifai from "clarifai";
 import Particles from "react-particles-js";
 import "./App.css";
 
 const app = new Clarifai.App({
-  apiKey: "d64e3cfc478d408e95a85a7e99a365af",
+  apiKey: "",
 });
 
 class App extends Component {
@@ -72,7 +73,7 @@ class App extends Component {
             },
           }}
         />
-
+        <SignIn />
         <Navigation />
         <Logo />
         <Rank />
