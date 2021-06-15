@@ -7,9 +7,8 @@ import "tachyons";
 import "react-tilt";
 import "react-particles-js";
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
+
   document.getElementById("root")
 );
 
